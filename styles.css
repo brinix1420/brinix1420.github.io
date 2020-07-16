@@ -1,0 +1,59 @@
+body {
+  background-image: url('logo bri/opening.png');
+ background-repeat: no-repeat;
+  background-size: cover;
+   height: 100%;
+  background-color:linen;
+}
+img{
+position: absolute;
+bottom: 30%;
+ right: 25%;
+}
+.main{
+  font-family: 'Acme', sans-serif;
+  font-size: 54px;
+  text-align: center;
+  position: absolute;
+  bottom: 30%;
+   right: 52%;
+ color: white;
+ padding-left: 80px;
+ padding-right: 80px;
+}
+.button{
+  border-style: outset;
+  border-radius: 8px;
+  background-color: gray;
+ color: white;
+ padding: 15px 64px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 24px;
+ margin: 4px 2px;
+ cursor: pointer;
+}
+
+#navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+#navbar a {
+  font-family: 'Acme', sans-serif;
+  font-size: 14px;
+  float: left;
+  display: block;
+  color: White;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar a:hover{
+  color: black;
+  background-color: #A0F1F5;
+}
